@@ -10,7 +10,6 @@ function App() {
     setUserInput((prevList)=>{
       return[...prevList, {name:uName,age:uAge, id:Math.random().toString()}]; 
     });
-    console.log(userInput);
   };
   return (
     <div>
